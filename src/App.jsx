@@ -2,6 +2,7 @@ import {Routes, Route, Link} from 'react-router-dom';
 import MainPage from './components/MainPage';
 import CategoriesPage from './components/CategoriesPage';
 import ShoppingCart from './components/ShoppingCart';
+import cartImage from './assets/shopping-cart.svg';
 import {useState} from'react';
 import './App.css';
 
@@ -22,7 +23,7 @@ const App = () => {
                 <MainPage />
                 <Link to="/cart">
                     <button id='cartButton'>
-                        <img src="../src/assets/shopping-cart.svg" id='cart'/>
+                        <img src={cartImage} id='cart'/>
                     </button>
                 </Link>
             </div>
