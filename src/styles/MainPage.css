@@ -1,0 +1,15 @@
+#body{
+    padding: 0;
+    margin: 0;
+}
+
+#main-page img{
+    width: 10rem;
+}
+
+#main-page{
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
